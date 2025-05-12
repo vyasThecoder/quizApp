@@ -1,0 +1,80 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8; /* Light background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  padding: 20px;
+}
+
+/* Container for the quiz box */
+.quiz-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Question heading style */
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Container for the options */
+#options {
+  margin-top: 10px;
+}
+
+/* Individual option button styling */
+.option {
+  background-color: #e0f2fe; /* Light blue */
+  border: none;
+  color: black;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Hover effect for options */
+.option:hover {
+  background-color: #bae6fd; /* Darker blue on hover */
+}
+
+/* Button styling (Next, Restart) */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2563eb; /* Primary blue */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #1d4ed8; /* Darker blue */
+}
+
+/* Utility class to hide elements */
+.hidden {
+  display: none;
+}
+
+/* Styling for the correction list */
+#corrections {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/* List item spacing */
+li {
+  margin-bottom: 6px;
+}
