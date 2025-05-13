@@ -1,7 +1,7 @@
 /* General body styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f4f8; /* Light background color */
+  background-color: #030712; /* Light background color */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,9 +31,10 @@ h2 {
 
 /* Individual option button styling */
 .option {
-  background-color: #e0f2fe; /* Light blue */
+  background-color: #babdbf; /* Light blue */
   border: none;
   color: black;
+  font-weight: 700;
   padding: 10px;
   margin: 5px 0;
   width: 100%;
