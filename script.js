@@ -121,12 +121,17 @@ function showResult() {
   } incorrectly.`;
 
   // Show a list of questions answered incorrectly
-  correctionsEl.innerHTML = "";
+  let Ans = "";
   userAnswers.forEach((ans) => {
     if (ans.selectedAnswer !== ans.correctAnswer) {
-      const li = document.createElement("li");
-      li.textContent = `Question: ${ans.question} | Your Answer: ${ans.selectedAnswer} | Correct Answer: ${ans.correctAnswer}`;
-      correctionsEl.appendChild(li);
+      Ans += `<li id="anssection">
+            Question :  ${ans.question}<br>
+            Your Answer:  ${ans.selectedAnswer}<br>
+            Correct Answer :  ${ans.correctAnswer}
+          </li>
+          <hr id="hrLine" />`;
+
+      correctionsEl.innerHTML = Ans;
     }
   });
 }

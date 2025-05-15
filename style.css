@@ -29,6 +29,13 @@ h2 {
   margin-top: 10px;
 }
 
+.quiz-container h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: #1d4ed8;
+  margin-bottom: 20px;
+}
+
 /* Individual option button styling */
 .option {
   background-color: #babdbf; /* Light blue */
@@ -73,9 +80,16 @@ button:hover {
 #corrections {
   margin-top: 10px;
   padding-left: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  max-height: 490px;
+  gap: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-/* List item spacing */
-li {
-  margin-bottom: 6px;
-}
+
